@@ -84,7 +84,7 @@ const Footer = () => {
                         </Box>
                     </Grid>
                 </Grid>
-                <Box sx={{ display: "flex", flexDirection: { xs: "column-reverse", md: "row" }, justifyContent: { xs: "center", lg: "space-around", xl: "space-between" }, pt: 10 }}>
+                <Box sx={{ display: "flex", flexDirection: { xs: "column-reverse", md: "row" }, justifyContent: { xs: "center", lg: "space-around", xl: "space-between" }, pt: 12 }}>
                     <Typography sx={{ textAlign: { xs: "center", lg: "left" }, pt: { xs: 2, md: 0 } }} className="poppins" variant="h5">
                         © All rights reserved – Finsweet
                     </Typography>
