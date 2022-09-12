@@ -7,7 +7,7 @@ import Insta from "../../images/instagram.svg";
 import Twitter from "../../images/twitter.svg";
 import FooterLeftIcon from "../../images/icon-left.svg";
 import FooterRightIcon from "../../images/icon-right.svg";
-import "../../styles/Home/Footer.scss";
+import "../../styles/common/Footer.scss";
 
 const Footer = () => {
     return (

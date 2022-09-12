@@ -8,7 +8,7 @@ import BasicTab from "../components/Home/Tab";
 import Vacancies from "../components/Home/Vacancies";
 import Feedback from "../components/Home/Feedback";
 import Blog from "../components/Home/Blog";
-import Footer from "../components/Home/Footer";
+import Footer from "../components/common/Footer";
 
 const Home = () => {
     return (
