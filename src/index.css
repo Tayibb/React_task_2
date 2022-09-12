@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('../src/fonts/poppins.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../src/fonts/Inter.ttf');
+}
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.poppins{
+    font-family: 'poppins' !important;
+}
+.Inter {
+    font-family: 'Inter' !important;
+}
+

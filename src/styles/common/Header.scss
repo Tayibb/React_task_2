@@ -1,0 +1,54 @@
+.header{
+    padding-top: 5px;
+    nav{
+        position: static;
+    }
+    display: flex;
+    .appBar{
+        background-color: white;
+        color: black;
+        box-shadow: none;
+        padding: 8px 0 0 0 ;
+        .toolBar{
+            padding: 0 !important;
+            .header_items{
+                color: #394149;
+                text-transform: unset;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .header_btn{
+                color: #F58A07;
+                text-transform: unset;
+                font-size: 600;
+                font-size: 16px;
+                background: rgba(245, 138, 7, 0.1);
+                border-radius: 31px;
+                padding: 8px 18px;
+            }
+        }
+    }
+}
+.header_button{
+    .header_btn {
+            color: #F58A07;
+            text-transform: unset;
+            font-size: 600;
+            font-size: 16px;
+            background: rgba(245, 138, 7, 0.1);
+            border-radius: 31px;
+            padding: 8px 18px;
+        }
+}
+@media (max-width:899px) {
+    .MuiList-root {
+            .MuiListItem-root {
+                margin: 20px 0 !important;
+            }
+        }
+
+}
+@media (max-width:599px) {
+    
+}
+

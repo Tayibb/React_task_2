@@ -1,0 +1,79 @@
+.main{
+    background: #DCEAF5;
+    margin-top: 10px;
+   .main_text {
+            h1 {
+                font-size: 45px;
+                font-weight: 600;
+                color: #1D3444;
+            }
+            h5 {
+                font-size: 16px;
+                line-height: 28px;
+                font-weight: 500;
+                color: #5B5B5B;
+                max-width: 90%;
+            }
+            .main_btn_yellow{
+                background: #F58A07;
+                border-radius: 27px;
+                font-weight: 600;
+                color: white;
+                padding: 14px 22px;
+                font-family: "poppins";
+            }
+            .main_btn_transparent{
+                font-weight: 600;
+                color: #1D3444;
+                margin-top: 8px;
+                font-family: "poppins";
+            }
+            h6 {
+                font-size: 18px;
+                color: rgba(57, 65, 73, 0.5);
+            }
+            .Main_logo_2{
+                padding: 0 45px;
+            }
+            .main_logos{
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .main_img{
+            img {
+                    max-width: 100%;
+                    height: auto;
+                }
+        }
+}
+
+// media Queries
+
+@media (max-width:899px){
+    .main{
+        .main_text{
+            h1{
+                font-size: 36px;
+            }
+        }
+    }
+}
+@media (max-width:599px) {
+    .main {
+        .main_text {
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+    .main_btn_yellow{
+        width: 180px;
+        height: 50px;
+    }
+    .main_btns button:first-child{
+           margin-bottom: 25px;
+        }
+}

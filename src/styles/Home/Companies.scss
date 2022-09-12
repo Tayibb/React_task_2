@@ -1,0 +1,84 @@
+.companies{
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    h2{
+        color: #1D3444;
+        font-size: 48px;
+        font-weight: 600;
+        max-width: 60%;
+    }
+    h5{
+        font-size: 18px;
+        color: #5B5B5B;
+        line-height: 30px;
+        max-width: 66%;
+    }
+    .card{
+        h4{
+            color: #0D1317;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        h3{
+            color: #5B5B5B;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 500;
+        }
+        .card_btn{
+            font-size: 16px;
+            color: #F58A07;
+            font-weight: 500;
+            text-transform: unset;
+            span{
+                margin-left: 12px;
+            }
+        }
+    }
+}
+
+// media Queries
+@media (max-width:1199px) {
+    .companies {
+        h2 {
+            max-width: 100%;
+            font-size: 40px;
+        }
+        h5{
+            max-width: 90%;
+        }
+    }
+}
+@media (max-width:899px) {
+    .companies{
+        h2{
+            max-width: 90%;
+            font-size: 36px;
+        } 
+    }
+}
+@media (max-width:599px) {
+    .companies {
+        h2 {
+            font-size: 26px;
+            max-width: 100%;
+        }
+        h5{
+           font-size: 16px;
+            max-width: 100%;
+            line-height: 26px;
+        }
+        .card{
+            h4{
+                font-size: 22px;
+            }
+            h3{
+                line-height: 24px;
+            }
+        }
+
+    }
+}
+

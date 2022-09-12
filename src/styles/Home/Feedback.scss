@@ -1,0 +1,109 @@
+.feedback{
+    h1{
+        color: #0D1317;
+        font-size: 42px;
+        font-weight: 600;
+        max-width: 86%;
+    }
+    h4{
+        color: #5B5B5B;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 500;
+        max-width: 79%;
+    }
+    h5{
+        color: #063255;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    h6{
+        color: #F58A07;
+        font-size: 18px;
+        font-weight: 500;
+    }
+        .video_main{
+            .video_size{
+                position: relative;
+                .video_overlay {
+                    position: absolute;
+                    bottom: 50px;
+                    left: 37px;
+                    z-index: 1;
+                    img {
+                        width: 51px;
+                        height: 51px;
+                    }
+                    h5{
+                        color: white;
+                        font-weight: 600;
+                        font-size: 18px;
+                    }
+                }
+                .video {
+                    position: relative;
+                    width: 100%;
+                    border-radius: 20px;
+                    margin-top: 30px;
+                } 
+            }
+               
+        }
+        
+}
+
+@media (max-width:1199px) {
+    
+}
+
+@media (max-width:899px) {
+    .feedback .video_main .video_size{
+        .video_overlay{
+            bottom: 25px;
+            left: 25px;
+        }
+        .video{
+            margin-top: 10px;
+        }
+    }
+    .feedback{
+        h1{
+            font-size: 36px;
+            max-width: 100%;
+        }
+        h5{
+            font-size: 22px;
+        }
+        h6{
+            font-size: 16px;
+        }
+        img{
+            width: 65px;
+        }
+    }
+}
+
+@media (max-width:599px) {
+    .feedback .video_main .video_size .video_overlay img{
+        width: 35px;
+        height: 35px;
+    }
+    .feedback .video_main .video_size .video_overlay h5 {
+        font-size: 16px;
+    }
+    .feedback{
+        h1{
+            font-size: 26px;
+            max-width: 100%;
+        }
+        h5{
+            font-size: 16px;
+        }
+        h6{
+            font-size: 14px;
+        }
+         img{
+            width: 55px;
+        }
+    }
+}
