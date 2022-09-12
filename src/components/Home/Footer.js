@@ -21,7 +21,7 @@ const Footer = () => {
                             <Box sx={{ display: "flex", justifyContent: { xs: "center", md: "flex-start" } }}>
                                 <img src={FooterLogo} alt="Logo_image_for_footer" />
                             </Box>
-                            <Typography className="poppins" variant="h1" sx={{ py: 3, textAlign: { xs: "center", md: "left" } }}>
+                            <Typography className="poppins" variant="h1" sx={{ py: 4, textAlign: { xs: "center", md: "left" } }}>
                                 Bespoke software solutions
                             </Typography>
                             <Box sx={{ display: "flex", justifyContent: { xs: "center", md: "flex-start" } }}>
