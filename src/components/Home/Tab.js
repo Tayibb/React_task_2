@@ -124,7 +124,7 @@ function BasicTab() {
                                     </Typography>
                                 </Box>
                                 <Box sx={{ display: "flex", justifyContent: { xs: "center", md: "flex-start" } }}>
-                                    <Button className="tab_btn poppins">
+                                    <Button className="tab_btn poppins" sx={{pl:0}}>
                                         See all services
                                         <span>
                                             <img src={Arrow} alt="Arrow_Icon_picture" />
