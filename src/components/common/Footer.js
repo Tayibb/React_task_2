@@ -72,7 +72,7 @@ const Footer = () => {
                             </Typography>
                         </Box>
                     </Grid>
-                    <Grid item xs={12} lg={4} sx={{ display: "flex", justifyContent: { xs: "center", lg: "flex-start" }, pt: { xs: 8, lg: 0 } }}>
+                    <Grid item xs={12} lg={4} sx={{ display: "flex", justifyContent: { xs: "center", lg: "flex-start" }, pt: { xs: 8,sm:9,md:10, lg: 0 } }}>
                         <Box>
                             <Typography sx={{ textAlign: { xs: "center", lg: "left" } }} className="poppins" variant="h4">
                                 Join Newsletter
